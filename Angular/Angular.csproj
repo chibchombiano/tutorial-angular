@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="app\admin\admin.html" />
     <Content Include="app\admin\admin.js" />
+    <Content Include="app\admin\example.html" />
+    <Content Include="app\admin\example.js" />
     <Content Include="app\app.js" />
     <Content Include="app\common\bootstrap\bootstrap.dialog.js" />
     <Content Include="app\common\common.js" />

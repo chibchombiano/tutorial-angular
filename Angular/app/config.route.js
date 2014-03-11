@@ -39,6 +39,16 @@
                         content: '<i class="fa fa-lock"></i> Admin'
                     }
                 }
+            },{
+                url: '/example',
+                config: {
+                    title: 'example',
+                    templateUrl: 'app/admin/example.html',
+                    settings: {
+                        nav: 2,
+                        content: '<i class="fa fa-lock"></i> Example'
+                    }
+                }
             }
         ];
     }
