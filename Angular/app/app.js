@@ -18,7 +18,7 @@
     
     // Handle routing errors and success events
     app.run(['$route', '$rootScope', function ($route, $rootScope, $cookieStore) {
-        $rootScope.azureURL = 'https://hefesoft-medicament-sales-force.azure-mobile.net/';
-        $rootScope.azureAppKey = 'KPtpYTfuLvrhWBkSCcxADFVOmUNleG14';
+        $rootScope.azureURL = 'https://angulartutorialblog.azure-mobile.net/';
+        $rootScope.azureAppKey = 'HzmkDhHhqHyKbvRVkpkYynxGtcbLIN62';
         }]);        
 })();

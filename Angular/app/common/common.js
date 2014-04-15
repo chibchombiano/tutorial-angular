@@ -25,15 +25,16 @@
     });
 
     commonModule.factory('common',
-        ['$q', '$rootScope', '$timeout', 'commonConfig', 'logger', common]);
+        ['$q', '$rootScope', '$timeout', 'commonConfig', 'logger', '$cookieStore', common]);
 
-    function common($q, $rootScope, $timeout, commonConfig, logger) {
+    function common($q, $rootScope, $timeout, commonConfig, logger, $cookieStore) {
         var throttles = {};
 
         var service = {
             // common angular dependencies
             $broadcast: $broadcast,
             $q: $q,
+            $cookieStore : $cookieStore,
             $timeout: $timeout,
             // generic
             activateController: activateController,
